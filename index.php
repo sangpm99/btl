@@ -1,5 +1,5 @@
 <?php
-    include("header.php");
+    include("phps/header.php");
 ?>
     <!-- Begin Header -->
     <section class="header">
@@ -111,9 +111,6 @@
         </div>
     </section>
     <!-- End footer -->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  </body>
-</html>
+<?php
+    include("phps/footer.php");
+?>
